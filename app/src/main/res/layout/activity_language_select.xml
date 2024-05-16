@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LanguageSelectActivity">
+
+
+    <Button
+        android:id="@+id/but_choose"
+        android:layout_width="304dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginEnd="53dp"
+        android:backgroundTint="@color/bg_button"
+        android:shadowColor="@color/bg_button"
+        android:text="@string/chooseen"
+        android:textSize="20sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.945" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="450dp"
+        android:layout_height="100dp"
+        android:background="@color/bg"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="-13dp"
+        tools:layout_editor_absoluteY="-2dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select"
+        android:textColor="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.704" />
+
+
+
+    <Button
+        android:id="@+id/but_rus"
+        android:layout_width="370dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/bg_buttons"
+        android:gravity="left|center_vertical"
+        android:text="@string/russian"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:cornerRadius="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.09"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/but_eng"
+        android:layout_width="370dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/bg_buttons"
+        android:gravity="left|center_vertical"
+        android:text="@string/english"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:cornerRadius="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.236"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/but_chin"
+        android:layout_width="370dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/bg_buttons"
+        android:gravity="left|center_vertical"
+        android:text="@string/chinese"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:cornerRadius="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.385"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/but_bel"
+        android:layout_width="370dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/bg_buttons"
+        android:gravity="left|center_vertical"
+        android:text="@string/belarus"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:cornerRadius="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.531"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/but_kaz"
+        android:layout_width="370dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/bg_buttons"
+        android:gravity="left|center_vertical"
+        android:text="@string/kazakh"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:cornerRadius="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.687"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textViewWHAT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/wiuml"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLanguage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

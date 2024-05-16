@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">LanguageAppVi</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip onboarding</string>
+    <string name="more">More</string>
+    <string name="choose">Choose a language</string>
+    <string name="log">Already a fillolearn user? Log in</string>
+    <string name="chooseen">Choose</string>
+    <string name="select">Language select</string>
+    <string name="wiuml">What is your Mother language?</string>
+    <string name="russian">Russian</string>
+    <string name="english">English</string>
+    <string name="chinese">Chinese</string>
+    <string name="belarus">Belarus</string>
+    <string name="kazakh">Kazakh</string>
+    <string name="logout">Logout</string>
+    <string name="dark">Switch to Dark</string>
+    <string name="changeL">Change mother languahe</string>
+    <string name="changeI">Change your image</string>
+    <string name="yourP">Your Profile,</string>
+    <string name="names">Vika</string>
+    <string name="used">Use that image</string>
+    <string name="resize">Just resize that photo</string>
+    <string name="fit">for fit in square</string>
+    <string name="hi">Hello,</string>
+    <string name="ready">Are you ready for learning today?</string>
+    <string name="exersises">Available exersises</string>
+    <string name="users">Top users</string>
+    <string name="check">Check</string>
+    <string name="guess">Guess the animal</string>
+    <string name="whoI">Write who is on image?</string>
+    <string name="right">Holy Molly! That is Right!</string>
+    <string name="again">Try again</string>
+    <string name="answer">Eh? Wrong answer :(</string>
+    <string name="thatI">That is:</string>
+    <string name="ans">Racoon</string>
+    <string name="fly">Муха</string>
+    <string name="gardener">Садовник</string>
+    <string name="gladiolus">Гладиолус</string>
+    <string name="dog">Собака</string>
+    <string name="practice">Word practice</string>
+    <string name="speech">Check my speech</string>
+    <string name="list">Listening</string>
+    <string name="text">Please press button and say this \nword. Our service will check \nyour pronunciation.</string>
+    <string name="result">Your result</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="cont">Continue</string>
+    <string name="create">Create an Account</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="choosePassword">Choose a Password</string>
+    <string name="transk">[ ˈkjuːkʌmbər ]</string>
+    <string name="cuc">Cucumber</string>
+    <string name="address">Email Address</string>
+    <string name="mem">Not you member?</string>
+    <string name="pass">Password</string>
+    <string name="yourPhoto">Your photo is gorgeous!</string>
+    <string name="memA">Already you member?</string>
+    <string name="word">Word practice</string>
+    <string name="trans">[ ˈɡɑːdnə ]</string>
+
+
+
+</resources>

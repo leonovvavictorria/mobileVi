@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".ProfilePhotoActivity">
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="304dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginEnd="53dp"
+        android:backgroundTint="@color/bg_button"
+        android:onClick="backProfile"
+        android:shadowColor="@color/bg_button"
+        android:text="@string/used"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.875" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        tools:ignore="MissingConstraints"
+        android:layout_width="445dp"
+        android:layout_height="87dp"
+        android:background="@color/bg"
+        android:hapticFeedbackEnabled="true"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="38dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/bg"
+        android:onClick="backProfile"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        app:layout_constraintEnd_toStartOf="@+id/textViewPhoto"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/textViewPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yourPhoto"
+        android:textColor="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.704" />
+
+    <ImageView
+        android:id="@+id/imageViewCoala"
+        android:layout_width="411dp"
+        android:layout_height="280dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.452"
+        app:srcCompat="@drawable/coala" />
+
+    <TextView
+        android:id="@+id/textViewResize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resize"
+        android:textColor="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewCoala"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.195" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fit"
+        android:textColor="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewCoala"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewResize"
+        app:layout_constraintVertical_bias="0.101" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
